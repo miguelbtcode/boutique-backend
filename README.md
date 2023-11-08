@@ -1,0 +1,9 @@
+# boutique-backend
+
+Actualmente, estoy inmerso en un desafiante proyecto de prueba técnica que utiliza ASP.NET Web API y sigue la robusta arquitectura Onion para mejorar la visualización del seguimiento de productos en una botica. En la capa de presentación, estoy diseñando una interfaz de usuario intuitiva y receptiva, aprovechando controladores de API para permitir a los usuarios acceder de manera eficiente al seguimiento de sus productos. La modularidad inherente a la arquitectura Onion facilita la implementación de esta capa, asegurando una experiencia de usuario fluida. 🚀 🙍🏻‍♂️
+
+En la capa de aplicación, estoy desarrollando servicios que gestionan la lógica específica del seguimiento de productos. Estos servicios permiten la búsqueda de detalles, la actualización del estado de seguimiento y la coordinación efectiva de la información entre la interfaz de usuario y la capa de dominio. En la capa de dominio, defino cuidadosamente entidades clave como productos y estados de seguimiento, incorporando lógica de negocio para gestionar el ciclo de vida de los productos y optimizar la gestión del inventario. 🗄️
+
+La capa de infraestructura es crucial para interactuar con la base de datos y servicios externos. Implemento repositorios que garantizan el almacenamiento seguro y la recuperación eficiente de la información. La seguridad es una prioridad constante, por lo que implemento medidas como autenticación y autorización para proteger la información sensible. Se estará avanzando próximamente con las pruebas unitarias e integrales para brindar mayor optimización y escalabilidad de manera segura al proyecto WebAPI.
+
+En resumen, este proyecto de prueba técnica no solo busca mejorar la visualización del seguimiento de productos en la botica, sino que también demuestra la eficacia de la arquitectura Onion en la construcción de sistemas escalables y mantenibles.
